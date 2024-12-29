@@ -7,7 +7,6 @@
 - 🚀 **React 19** - Experience the future with the new React Compiler
 - ⚡ **Vite** - Lightning-fast development with instant HMR
 - 🎯 **TypeScript** - Type-safe development with latest features
-- 🎨 **TailwindCSS** - Utility-first CSS with modern preset
 - 🔄 **TanStack Router** - Type-safe routing with code splitting
 - 📡 **TanStack Query** - Powerful data synchronization
 - ✅ **Vitest** - Next-generation testing framework
@@ -88,7 +87,6 @@ pnpm dev
 │   ├── styles
 │   │   └── index.css
 │   └── vite-env.d.ts
-├── tailwind.config.ts
 ├── tests
 │   ├── setup.tsx
 │   └── utils
@@ -141,21 +139,10 @@ While this template provides a solid foundation, you might find these additional
 [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction): A minimal, unopinionated state management library cwith a simple API and hooks.
 [Jotai](https://jotai.org/): A primitive and flexible state management library for React with atomic state.
 
-### UI/UX Libraries
-
-[Fluid-Tailwind](https://fluid.tw/): A utility-focused library that extends TailwindCSS for a more fluid design approach.
-[shadcn/ui](https://ui.shadcn.com/c): A modern library that combines design tokens and utility classes for rapid UI development.
-
 ### ORMs
 
 [Prisma](https://www.prisma.io/): A powerful ORM for working with databases, enabling type-safe queries and schema migrations.
 [Drizzle(https://orm.drizzle.team/)]: A lightweight ORM alternative that offers a simpler API for SQL databases.
-
-### Headless UI Components
-
-[Radix UI](https://www.radix-ui.com/): A library of low-level, unstyled UI components for accessibility and customization.
-[Headless UI](https://headlessui.com/): Tailored for React and Vue, it provides accessible, unstyled components that work seamlessly with TailwindCSS.
-[React Aria](https://react-spectrum.adobe.com/react-aria/index.html): A suite of React hooks that helps you build accessible and robust user interfaces.
 
 ## 🤝 Contributing
 
