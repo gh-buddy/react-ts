@@ -30,7 +30,7 @@
     "@reduxjs/toolkit": "^2.5.0",
     "@tabler/icons-react": "^3.26.0",
     "@tanstack/react-query": "^5.62.8",
-    "@tanstack/react-router": "^1.93.0",
+    "@tanstack/react-router": "^1.94.1",
     "axios": "^1.7.9",
     "dayjs": "^1.11.10",
     "i18next": "^24.2.0",
