@@ -10,7 +10,6 @@
 - 🔄 **TanStack Router** - Type-safe routing with code splitting
 - 📡 **TanStack Query** - Powerful data synchronization
 - ✅ **Vitest** - Next-generation testing framework
-- 📦 **PNPM** - Fast, disk space efficient package manager
 - 🔍 **ESLint + Prettier** - Modern linting and code formatting
 
 ## ⚠️ Disclaimer
@@ -36,16 +35,14 @@ Two options here either use github's `Use this template` button or do it by clon
 
 ```bash
 # Clone the repository
-git clone https://github.com/FerMPY/react-ts-template.git my-app
+git clone https://github.com/gh-buddy/react-ts.git my-app
 
 # Navigate to project directory
 cd my-app
 
 # Install dependencies
-pnpm install
+npm install
 
-# CLean up git
-pnpm node --experimental-strip-types ./scripts/setup.ts
 
 # Start development server
 pnpm dev
@@ -53,15 +50,15 @@ pnpm dev
 
 ### Available Scripts
 
-| Command             | Description                |
-| ------------------- | -------------------------- |
-| \`pnpm dev\`        | Start development server   |
-| \`pnpm build\`      | Build for production       |
-| \`pnpm preview\`    | Preview production build   |
-| \`pnpm test\`       | Run tests                  |
-| \`pnpm format\`     | Run Prettier over the code |
-| \`pnpm lint\`       | Lint code                  |
-| \`pnpm type-check\` | Check types                |
+| Command                    | Description                |
+| -------------------------- | -------------------------- |
+| \`npm run dev\`            | Start development server   |
+| \`npm run build\`          | Build for production       |
+| \`npm run preview\`        | Preview production build   |
+| \`npm run test\`           | Run tests                  |
+| \`npm run prettier:write\` | Run Prettier over the code |
+| \`npm run lint\`           | Lint code                  |
+| \`npm run type-check\`     | Check types                |
 
 ### Project Structure
 
@@ -160,8 +157,6 @@ While this template provides a solid foundation, you might find these additional
 ---
 
 <div align="center">
-
-Made with ❤️ by Fernando Mendoza
 
 [⬆ Back to top](#react-19--typescript--vite-template)
 
