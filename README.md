@@ -27,7 +27,7 @@ This template is designed to stay cutting-edge, which means it:
 
 ### Preretirement
 
-Latest lts for node js, and pnpm installed.
+Latest lts for node js, and npm installed.
 
 ### Getting Started
 
@@ -45,7 +45,7 @@ npm install
 
 
 # Start development server
-pnpm dev
+npm run dev
 ```
 
 ### Available Scripts
