@@ -26,7 +26,7 @@
     "@mantine/dates": "^7.12.2",
     "@mantine/form": "^7.15.3",
     "@mantine/hooks": "^7.7.1",
-    "@mantine/modals": "^7.12.2",
+    "@mantine/modals": "^7.15.3",
     "@reduxjs/toolkit": "^2.5.0",
     "@tabler/icons-react": "^3.26.0",
     "@tanstack/react-query": "^5.62.8",
