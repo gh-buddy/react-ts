@@ -21,12 +21,6 @@
     }
   },
   "dependencies": {
-    "@mantine/charts": "^7.7.1",
-    "@mantine/core": "^7.16.0",
-    "@mantine/dates": "^7.12.2",
-    "@mantine/form": "^7.15.3",
-    "@mantine/hooks": "^7.7.1",
-    "@mantine/modals": "^7.12.2",
     "@reduxjs/toolkit": "^2.5.0",
     "@tabler/icons-react": "^3.28.1",
     "@tanstack/react-query": "^5.63.0",
@@ -36,7 +30,6 @@
     "i18next": "^24.2.1",
     "lodash": "^4.17.21",
     "lottie-web": "^5.12.2",
-    "mantine-form-yup-resolver": "^2.0.0",
     "miragejs": "^0.1.48",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -45,6 +38,7 @@
     "yup": "^1.6.1"
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-methods": "^7.25.9",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@eslint-react/eslint-plugin": "^1.23.2",
@@ -56,7 +50,7 @@
     "@storybook/blocks": "^8.4.7",
     "@storybook/react": "^8.4.6",
     "@storybook/react-vite": "^8.4.7",
-    "@storybook/testing-library": "^0.2.2",
+    "@storybook/test": "^8.4.7",
     "@tanstack/eslint-plugin-query": "^5.62.16",
     "@tanstack/eslint-plugin-router": "^1.87.6",
     "@tanstack/react-query-devtools": "^5.64.1",
@@ -88,6 +82,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jsdom": "^26.0.0",
     "lint-staged": "^15.2.11",
+    "lru-cache": "^11.0.2",
     "postcss": "^8.4.49",
     "postcss-preset-mantine": "1.17.0",
     "postcss-simple-vars": "^7.0.1",
